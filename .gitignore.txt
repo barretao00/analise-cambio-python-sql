@@ -1,0 +1,12 @@
+# Arquivos de Banco de Dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Ambientes Virtuais
+venv/
+.venv/

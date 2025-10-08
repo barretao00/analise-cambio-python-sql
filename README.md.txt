@@ -40,4 +40,6 @@ O objetivo é demonstrar um ciclo completo de um projeto de dados:
 
 A execução do script irá buscar os dados do último ano, salvá-los no banco `cambio_historico.db` e exibir um gráfico como este:
 
-(Dica: Tire um print do seu gráfico e adicione a imagem aqui no GitHub!)*
+![Gráfico demonstrando o histórico da taxa de câmbio: USD para BRL](./grafico.png)
+
+

@@ -44,10 +44,13 @@ Apresentar o ciclo de vida completo de um projeto de dados, desde a **coleta**, 
    git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
    
 2. Navague até a pasta do projeto:
+    ```bash
       cd NOME-DO-REPO
    
-3. Instale as depedências
+4. Instale as depedências:
+    ```bash
       pip install -r requirements.txt
 
-4. Execute o projeto
-      python analise_cambio.py
+6. Execute o projeto:
+   ```bash
+      python cambio_dolar.ipynb

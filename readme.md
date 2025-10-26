@@ -54,3 +54,40 @@ Apresentar o ciclo de vida completo de um projeto de dados, desde a **coleta**, 
 6. Execute o projeto:
    ```bash
       python cambio_dolar.ipynb
+
+
+☁️ Como Executar a Versão em Nuvem (Versão 2 - Azure)
+   
+   1. Gere o arquivo cotacoes.csv através do script Python.
+              
+   2. Faça o upload para o Azure Blob Storage.
+
+
+   4. No Azure Data Factory, configure um pipeline para copiar os dados do Blob para o Azure SQL Database.
+
+   5. Valide os dados executando uma query no Azure Query Editor:
+      
+       ```bash
+        SELECT TOP (10) * FROM [dbo].[Cotacoes];
+
+
+5. Confirme que os dados foram carregados com sucesso na tabela SQL.
+
+
+📊 Resultados
+
+ A execução local gera o gráfico histórico da taxa de câmbio:
+
+ ![Gráfico de câmbio gerado](./grafico.png)
+
+
+
+
+
+ 📈 Evolução do Projeto
+
+✅ Versão inicial: SQLite (local)
+
+☁️ Versão atual: Azure (Blob Storage + Data Factory + SQL Database)
+
+🚀 Próximos passos: Automação do pipeline e integração com Power BI para visualizações dinâmicas.
